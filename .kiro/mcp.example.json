@@ -1,4 +1,4 @@
-﻿{
+{
   "mcpServers": {
     "figma": {
       "command": "npx",
@@ -17,7 +17,7 @@
     "puppeteer": {
       "command": "node",
       "args": [
-        "C:\\Users\\122589\\Documents\\Workspace.KIRO\\mcp\\Puppeteer-MCP\\node_modules\\@modelcontextprotocol\\server-puppeteer\\dist\\index.js"
+        "C:\\caminho\\para\\Puppeteer-MCP\\node_modules\\@modelcontextprotocol\\server-puppeteer\\dist\\index.js"
       ]
     },
     "fetch": {
@@ -34,7 +34,7 @@
     "word-document-server": {
       "command": "python",
       "args": [
-        "C:\\Users\\122589\\Documents\\Workspace.KIRO\\mcp\\Office-Word-MCP-Server\\word_mcp_server.py"
+        "C:\\caminho\\para\\Office-Word-MCP-Server\\word_mcp_server.py"
       ],
       "disabled": false,
       "autoApprove": [

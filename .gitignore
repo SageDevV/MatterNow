@@ -1,0 +1,4 @@
+# Kiro
+# Mantemos o exemplo (.kiro/mcp.example.json) versionado, mas o arquivo real
+# pode conter chaves locais — fica fora do git.
+.kiro/mcp.json
