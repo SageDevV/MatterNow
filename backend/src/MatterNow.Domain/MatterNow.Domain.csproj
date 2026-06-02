@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>MatterNow.Domain</RootNamespace>
+  </PropertyGroup>
+</Project>

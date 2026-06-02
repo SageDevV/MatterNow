@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "figma": {
+      "url": "http://127.0.0.1:3845/mcp",
+      "disabled": false,
+      "autoApprove": [
+        "get_design_context",
+        "get_metadata",
+        "get_screenshot",
+        "get_variable_defs",
+        "get_code_connect_suggestions",
+        "get_code_connect_map",
+        "whoami"
+      ]
+    }
+  }
+}

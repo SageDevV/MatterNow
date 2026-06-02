@@ -1,0 +1,48 @@
+﻿{
+  "mcpServers": {
+    "figma": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "figma-developer-mcp",
+        "--figma-api-key=${FIGMA_API_KEY}",
+        "--stdio"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "get_figma_data",
+        "download_figma_images"
+      ]
+    },
+    "puppeteer": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\122589\\Documents\\Workspace.KIRO\\mcp\\Puppeteer-MCP\\node_modules\\@modelcontextprotocol\\server-puppeteer\\dist\\index.js"
+      ]
+    },
+    "fetch": {
+      "command": "python",
+      "args": ["-m", "mcp_server_fetch"]
+    },
+    "notion": {
+      "url": "https://mcp.notion.com/mcp",
+      "disabled": false
+    },
+    "excalidraw": {
+      "url": "https://mcp.excalidraw.com"
+    },
+    "word-document-server": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\122589\\Documents\\Workspace.KIRO\\mcp\\Office-Word-MCP-Server\\word_mcp_server.py"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "add_page_break",
+        "add_heading",
+        "insert_numbered_list_near_text",
+        "add_paragraph"
+      ]
+    }
+  }
+}
